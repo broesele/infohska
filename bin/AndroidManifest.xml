@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="edu.hska.infohska.ItemListActivity"
+            android:name="edu.hska.infohska.DashboardListActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,11 +23,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="edu.hska.infohska.ItemDetailActivity"
+            android:name="edu.hska.infohska.DashboardDetailActivity"
             android:label="@string/title_item_detail" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ItemListActivity" />
+                android:value=".DashboardListActivity" />
         </activity>
     </application>
 
