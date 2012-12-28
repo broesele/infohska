@@ -49,9 +49,9 @@ public class DashboardListActivity extends FragmentActivity implements
 		}
 
 		
-		Lehrveranstaltung lehr = new Lehrveranstaltung();
-		PmgDbHelper helpi = new PmgDbHelper(null) ;
-		helpi.onUpgrade(db, oldVersion, newVersion);
+//		Lehrveranstaltung lehr = new Lehrveranstaltung();
+//		PmgDbHelper helpi = new PmgDbHelper(null) ;
+//		helpi.onUpgrade(db, oldVersion, newVersion);
 	
 		
 		
