@@ -3,5 +3,14 @@
 
     <string name="app_name">Info HsKA</string>
     <string name="title_item_detail">Item Detail</string>
+    <string name="dashboard_activity_text">Das ist die DashboardActivity</string>
+    <string name="hochschulinfo">HochschulInfo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_lehrveranstaltung">LehrveranstaltungActivity</string>
+    <string name="persons">Personen</string>
+    <string name="actual">Aktuelles</string>
+    <string name="bachelor">Bachelor Studiengang</string>
+    <string name="master">Master Studiengang</string>
 
 </resources>
