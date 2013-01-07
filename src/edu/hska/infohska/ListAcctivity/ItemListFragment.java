@@ -1,4 +1,4 @@
-package edu.hska.infohska;
+package edu.hska.infohska.ListAcctivity;
 
 import android.app.Activity;
 import android.os.Bundle;

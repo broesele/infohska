@@ -1,4 +1,4 @@
-package edu.hska.infohska;
+package edu.hska.infohska.ListAcctivity;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,6 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import edu.hska.infohska.R;
+import edu.hska.infohska.R.id;
+import edu.hska.infohska.R.layout;
 import edu.hska.infohska.dummy.DummyContent;
 
 /**

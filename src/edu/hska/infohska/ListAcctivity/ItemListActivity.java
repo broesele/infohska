@@ -1,5 +1,8 @@
-package edu.hska.infohska;
+package edu.hska.infohska.ListAcctivity;
 
+import edu.hska.infohska.R;
+import edu.hska.infohska.R.id;
+import edu.hska.infohska.R.layout;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
