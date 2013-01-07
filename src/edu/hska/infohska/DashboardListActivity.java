@@ -4,6 +4,7 @@ import com.dfuerniss.pmg.dbhelper.*;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.support.v4.app.FragmentActivity;
 
 /**
@@ -33,6 +34,18 @@ public class DashboardListActivity extends FragmentActivity implements
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		
+		// Siehe PDF "Android User Interface" S.50
+		// Bei Fertigstellung wieder rausnehmen!
+		StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()
+									.detectAll()
+									.penaltyDialog()
+									.build());
+		StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder().detectAll()
+									.penaltyLog ()
+									.build ());
+
+		
 		setContentView(R.layout.activity_item_list);
 
 		if (findViewById(R.id.item_detail_container) != null) {
@@ -53,7 +66,7 @@ public class DashboardListActivity extends FragmentActivity implements
 //		PmgDbHelper helpi = new PmgDbHelper(null) ;
 //		helpi.onUpgrade(db, oldVersion, newVersion);
 	
-		
+
 		
 		
 		
