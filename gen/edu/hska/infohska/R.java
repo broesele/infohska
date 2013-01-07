@@ -14,9 +14,14 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int item_detail=0x7f060002;
+        public static final int button1=0x7f060003;
+        public static final int button2=0x7f060004;
+        public static final int button3=0x7f060005;
+        public static final int button4=0x7f060006;
+        public static final int item_detail=0x7f060007;
         public static final int item_detail_container=0x7f060000;
         public static final int item_list=0x7f060001;
+        public static final int textView1=0x7f060002;
     }
     public static final class layout {
         public static final int activity_item_detail=0x7f030000;
@@ -37,10 +42,21 @@ public final class R {
          */
         public static final int activity_item_list=0x7f030001;
         public static final int activity_item_twopane=0x7f030002;
-        public static final int fragment_item_detail=0x7f030003;
+        public static final int dashboard_activity=0x7f030003;
+        public static final int fragment_item_detail=0x7f030004;
+        public static final int personen=0x7f030005;
     }
     public static final class string {
+        public static final int actual=0x7f040008;
         public static final int app_name=0x7f040000;
+        public static final int bachelor=0x7f040009;
+        public static final int dashboard_activity_text=0x7f040002;
+        public static final int hello_world=0x7f040004;
+        public static final int hochschulinfo=0x7f040003;
+        public static final int master=0x7f04000a;
+        public static final int menu_settings=0x7f040005;
+        public static final int persons=0x7f040007;
+        public static final int title_activity_lehrveranstaltung=0x7f040006;
         public static final int title_item_detail=0x7f040001;
     }
     public static final class style {
